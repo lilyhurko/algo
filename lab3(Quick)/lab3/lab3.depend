@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1678819551 source:d:\studia\semestr2\pa_lab\lab3\lab3\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

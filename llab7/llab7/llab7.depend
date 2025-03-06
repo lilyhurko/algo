@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1682691982 source:c:\users\lilia\desktop\llab7\llab7\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+

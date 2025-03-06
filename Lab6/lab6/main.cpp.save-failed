@@ -1,0 +1,89 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+#include <fstream>
+#include <sstream>
+
+using namespace std;
+
+void wczytajPlik(string *&text, string *wzorzec, int *n);
+void naiwne(string text, string wzorzec);
+
+int main(){
+    string *text;
+    int n;
+
+    string wzorzec;
+    wczytajPlik(text, &wzorzec, &n);
+
+    cout << "Podany wzorzec: " << wzorzec << endl;
+    for (int i = 0; i < n; i++){
+        cout << text[i] << endl;
+        naiwne(text[i], wzorzec);
+    }
+    return 0;
+}
+
+void naiwne(string text, string wzorzec){
+    int j = 0, i = 0, dlt = text.length(), dlw = wzorzec.length();
+    while (i <= dlt-dlw){
+        j = 0;
+        while (j<dlw && wzorzec[j] == text[i+j]) j++;
+        if (j == dlw){
+            cout << i << " ";
+        }
+        i++;
+    }
+    cout << endl;
+}
+
+void wczytajPlik(string *&text, string *wzorzec, int *n){
+    string linia, pomoc;
+    ifstream plik;
+
+    plik.open("tekst.txt");
+
+    int N = -1;
+    while (getline (plik, pomoc))
+        N ++;
+    plik.close();
+    plik.open("tekst.txt");
+    plik >> *wzorzec;
+    text = new string[N];
+    for(int i=0; i<N; i++){
+        plik>>linia;
+        stringstream ss(linia);
+        getline(ss, text[i]);
+    }
+    plik.close();
+    *n = N;
+}
+
+int make_hash(int s, int off, int p, int exp){
+    //hash = hash + (s-off)*pow(p,exp);
+    return 0;
+}
+
+int update_hash(int hash, int s_prev, int s_next, int off, int p, int exp){
+    int u_hash = hash-(s_prev-off)*pow(p, exp);
+    u_hash *= p;
+    u_hash += s_next-off;
+    return u_hash;
+}
+
+void kr(string pattern, string text, p, off){
+    int hashP = 0, hastT = 0;
+    int i = 0;
+    for (i = 0; i < pattern.length(); i++){
+        hashP = hashP+make_hash(pattern[i], off, p, pattern.length()-i-1);
+        hashT = hashT+make_hash(text[i], off, p, pattern.length()-i-1);
+    }
+    for (i = pattern.length(), j = 0; i<=text.length(); i++, j++){
+        if (HashP==HashT){
+            //naiwnny
+        }
+        if (i < text.length()){
+           hastT = update_hash(hastT, text[j], text[i], off, p, pattern.length()-1);
+        }
+    }
+}

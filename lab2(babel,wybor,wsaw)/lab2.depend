@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1678469956 source:d:\studia\semestr2\pa_lab\lab2\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

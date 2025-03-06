@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1680617822 source:c:\users\maks\desktop\podstawy algorytmiki labs\lab6\main.cpp
+	<iostream>
+	<cmath>
+	<string>
+	<fstream>
+	<sstream>
+
+1681491192 source:c:\users\lilia\desktop\lab6\lab6\main.cpp
+	<iostream>
+	<cmath>
+	<string>
+	<fstream>
+	<sstream>
+

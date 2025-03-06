@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1680251801 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tosoba.cpp
+	"Tosoba.h"
+	<iostream>
+
+1680268637 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tosoba.h
+	<string>
+	<iostream>
+
+1680254755 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tpracownik.cpp
+	"Tpracownik.h"
+	<iostream>
+
+1680253467 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tpracownik.h
+	<Tosoba.h>
+
+1680268610 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\main.cpp
+	<iostream>
+	<Tstudent.h>
+	<TpracownikUmyslowy.h>
+	<TpracownikFizyczny.h>
+	<Tsamochod.h>
+	<Tlodz.h>
+	<Tamfibia.h>
+	<Tgaraz.h>
+
+1680251904 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tstudent.h
+	<Tosoba.h>
+
+1680254018 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tstudent.cpp
+	"Tstudent.h"
+	<iostream>
+
+1680254711 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tpracownikfizyczny.cpp
+	"TpracownikFizyczny.h"
+
+1680253525 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tpracownikfizyczny.h
+	<Tpracownik.h>
+
+1680254478 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tpracownikumyslowy.cpp
+	"TpracownikUmyslowy.h"
+
+1680254398 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tpracownikumyslowy.h
+	<Tpracownik.h>
+
+1680261716 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tgaraz.cpp
+	"Tgaraz.h"
+	<iostream>
+
+1680260462 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tgaraz.h
+
+1680259871 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tamfibia.cpp
+	"Tamfibia.h"
+	<iostream>
+
+1680259854 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tamfibia.h
+	<Tsamochod.h>
+	"Tlodz.h"
+
+1680257135 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tsamochod.h
+	<Tpojazd.h>
+
+1680256911 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tpojazd.h
+	<iostream>
+
+1680258062 c:\users\maks\desktop\programowanie obiektowe c++\lab5\include\tlodz.h
+	<Tpojazd.h>
+	<iostream>
+
+1680258377 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tlodz.cpp
+	"Tlodz.h"
+	<iostream>
+
+1680256926 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tpojazd.cpp
+	"Tpojazd.h"
+
+1680257270 source:c:\users\maks\desktop\programowanie obiektowe c++\lab5\src\tsamochod.cpp
+	"Tsamochod.h"
+	<iostream>
+
+1680275743 source:c:\users\lilia\desktop\lab5\lab5\src\tpracownik.cpp
+	"Tpracownik.h"
+	<iostream>
+
+1680275742 c:\users\lilia\desktop\lab5\lab5\include\tpracownik.h
+	<Tosoba.h>
+
+1680275742 c:\users\lilia\desktop\lab5\lab5\include\tosoba.h
+	<string>
+	<iostream>
+
